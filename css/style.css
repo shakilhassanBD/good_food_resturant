@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+#hero {
+    background-image: url(../images/assets/hero-bg.png);
+    background-size: cover;
+    width: 100%;
+    height: 910px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+
+}
+
+.hero_container {
+    width: 1023px;
+    height: 391px;
+
+
+}
+
+.hero_taile {
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+.hero_header {
+    margin-bottom: 20px;
+
+}
+
+.hero_details {
+    opacity: 0.7;
+    margin-bottom: 20px;
+
+}
+
+.hero_btn {
+    background-color: chartreuse;
+    color: white;
+    width: 282px;
+    height: 65px;
+    border: none;
+    font-size: 24px;
+    border-radius: 5px;
+
+}
+
+.hero_btn:hover {
+    color: gold;
+}
+
+#card {
+
+    position: static;
+    width: 1320px;
+    height: 742px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto 20px;
+    gap: 48;
+    padding: 0px;
+    /* border: 1px solid; */
+
+}
+
+.card_taileAndheader {
+    text-align: center;
+    width: 691px;
+    height: auto;
+    margin: 0 auto;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0%;
+}
+
+.card_taileAndheader p {
+    opacity: 0.7;
+}
+
+.card_container {
+    display: flex;
+    flex-direction: column(3fr, auto);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid; */
+
+
+}
+
+.card_container div {
+    /* border: 1px solid; */
+    width: 400px;
+    height: 283px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto auto;
+    gap: 20px;
+
+}
+.card_container img:hover {
+    filter:grayscale(50%);
+
+}
+
+.card_container button {
+    height: auto;
+    width: 122px;
+    background-color: rgb(177, 239, 177);
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.card_btn {
+    margin: 10px auto 20px;
+    width: 220px;
+    height: 65px;
+    background-color: green;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
